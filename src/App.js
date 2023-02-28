@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// import QRComponent from "./challenges/qr_code_component/QRCode";
+import ResultsSummary from "./challenges/results_summary_component/ResultsSummary";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			{/* <QRComponent /> */}
+			<ResultsSummary />
+		</>
+	);
 }
 
 export default App;
