@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/frontend-mentor-challenges-build/static/css/main.1af22c92.css",
-    "main.js": "/frontend-mentor-challenges-build/static/js/main.7208840d.js",
-    "static/media/preview.jpg": "/frontend-mentor-challenges-build/static/media/preview.1dc885d3b52ee0b32a99.jpg",
-    "index.html": "/frontend-mentor-challenges-build/index.html",
-    "main.1af22c92.css.map": "/frontend-mentor-challenges-build/static/css/main.1af22c92.css.map",
-    "main.7208840d.js.map": "/frontend-mentor-challenges-build/static/js/main.7208840d.js.map"
+    "main.css": "/frontend-mentor-challenges/static/css/main.1af22c92.css",
+    "main.js": "/frontend-mentor-challenges/static/js/main.e24b6bf6.js",
+    "static/media/preview.jpg": "/frontend-mentor-challenges/static/media/preview.1dc885d3b52ee0b32a99.jpg",
+    "index.html": "/frontend-mentor-challenges/index.html",
+    "main.1af22c92.css.map": "/frontend-mentor-challenges/static/css/main.1af22c92.css.map",
+    "main.e24b6bf6.js.map": "/frontend-mentor-challenges/static/js/main.e24b6bf6.js.map"
   },
   "entrypoints": [
     "static/css/main.1af22c92.css",
-    "static/js/main.7208840d.js"
+    "static/js/main.e24b6bf6.js"
   ]
 }

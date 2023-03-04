@@ -2,7 +2,7 @@
   "name": "frontend-mentor-challenges",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omkarbhale.github.io/frontend-mentor-challenges-build/",
+  "homepage": "https://omkarbhale.github.io/frontend-mentor-challenges/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
