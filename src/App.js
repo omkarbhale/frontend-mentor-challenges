@@ -9,11 +9,11 @@ function App() {
 			<Routes>
 				<Route path="/frontend-mentor-challenges" element={<Home />} />
 				<Route
-					path="/challenges/qr_code_component"
+					path="/frontend-mentor-challenges/challenges/qr_code_component"
 					element={<QRCodeComponent />}
 				/>
 				<Route
-					path="/challenges/results_summary_component"
+					path="/frontend-mentor-challenges/challenges/results_summary_component"
 					element={<ResultsSummaryComponent />}
 				/>
 			</Routes>

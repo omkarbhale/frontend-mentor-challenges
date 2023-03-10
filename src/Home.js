@@ -7,12 +7,12 @@ function Home() {
 			<ChallengeCard
 				title="QR Code Component"
 				img={require("./challenges/qr_code_component/preview.jpg")}
-				to="/challenges/qr_code_component"
+				to="/frontend-mentor-challenges/challenges/qr_code_component"
 			/>
 			<ChallengeCard
 				title="Results Summary Component"
 				img={require("./challenges/results_summary_component/preview.jpg")}
-				to="/challenges/results_summary_component"
+				to="/frontend-mentor-challenges/challenges/results_summary_component"
 			/>
 		</div>
 	);
