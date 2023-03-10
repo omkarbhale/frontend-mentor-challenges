@@ -1,18 +1,23 @@
-import styles from "./App.module.css";
-import ChallengeCard from "./components/ChallengeCard";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Home";
+
+import { QRCodeComponent, ResultsSummaryComponent } from "./challenges";
 
 function App() {
 	return (
-		<div className={styles.challenge_cards_container}>
-			<ChallengeCard
-				title="QR Code Component"
-				img={require("./challenges/qr_code_component/preview.jpg")}
-			/>
-			<ChallengeCard
-				title="Results Summary Component"
-				img={require("./challenges/results_summary_component/preview.jpg")}
-			/>
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/frontend-mentor-challenges" element={<Home />} />
+				<Route
+					path="/challenges/qr_code_component"
+					element={<QRCodeComponent />}
+				/>
+				<Route
+					path="/challenges/results_summary_component"
+					element={<ResultsSummaryComponent />}
+				/>
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
